@@ -148,14 +148,26 @@ export function Home() {
           />
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
-          {/* Bud Tunnel */}
+          {/* Nos Pasa */}
           <WorkCard
-            title={t("projects.project9.title")}
-            subtitle="Budweiser - Publicis"
-            link="/bud-tunnels"
-            image="bud-tunnels-home.png"
-            video="https://player.vimeo.com/video/1068500493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+            title={t("projects.project3.title")}
+            subtitle="Nayflex - Juju Angency"
+            link="/nos-pasa"
+            image="nayflex-home.png"
+            video="https://player.vimeo.com/video/1068498974?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
           />
+
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* Intocables */}
+          <WorkCard
+            title={t("projects.project7.title")}
+            subtitle="Iniciativa idea - Ojo 2021"
+            link="/las-intocables"
+            image="intocables-home.png"
+            video="https://player.vimeo.com/video/704338668?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
           {/* Sabores */}
@@ -168,15 +180,14 @@ export function Home() {
           />
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
-          {/* Nos Pasa */}
+          {/* Bud Tunnel */}
           <WorkCard
-            title={t("projects.project3.title")}
-            subtitle="Nayflex - Juju Angency"
-            link="/nos-pasa"
-            image="nayflex-home.png"
-            video="https://player.vimeo.com/video/1068498974?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+            title={t("projects.project9.title")}
+            subtitle="Budweiser - Publicis"
+            link="/bud-tunnels"
+            image="bud-tunnels-home.png"
+            video="https://player.vimeo.com/video/1068500493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
           />
-
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
           {/* BudVar */}
@@ -186,18 +197,6 @@ export function Home() {
             link="/bud-var"
             image="budvar-home.png"
             video="https://player.vimeo.com/video/1068500225?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
-          />
-
-          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
-
-
-          {/* Intocables */}
-          <WorkCard
-            title={t("projects.project7.title")}
-            subtitle="Iniciativa idea - Ojo 2021"
-            link="/las-intocables"
-            image="intocables-home.png"
-            video="https://player.vimeo.com/video/704338668?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
           />
 
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
@@ -350,7 +349,7 @@ export function Home() {
                 <p className="font-open font-light mb-2 px-2 text-end">
                   Cynthia Alarcón
                 </p>
-                <p className="sfont-open font-light text-zinc-500 px-2 text-end">
+                <p className="font-open font-light text-zinc-500 px-2 text-end">
                   Senior Creative Copywriter
                 </p>
               </div>
