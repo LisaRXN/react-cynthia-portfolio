@@ -79,19 +79,19 @@ export function About() {
 
           <div className="flex flex-col w-3/4">
             <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-              <p className="text-xl">{t('about.experience.present')}</p>
-              <p>VML Peru</p>
+              <p className="text-xl">2024 - 2025</p>
+              <p>VML Perú</p>
             </div>
             <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-              <p className="text-xl">2023</p>
-              <p>Juju Agency</p>
+              <p className="text-xl">2023 - 2024</p>
+              <p>The Juju</p>
             </div>
             <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-              <p className="text-xl">2020</p>
+              <p className="text-xl">2020 - 2023</p>
               <p>Publicis Peru</p>
             </div>
             <div className="w-full border-t border-b border-zinc-800 py-5 flex items-center justify-between">
-              <p className="text-xl">2018</p>
+              <p className="text-xl">2018 - 2020</p>
               <p>Circus Grey</p>
             </div>
           </div>

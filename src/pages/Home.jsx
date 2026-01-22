@@ -20,7 +20,7 @@ export function Home() {
         <div className="grid grid-cols-3 w-full gap-10 box-border px-10">
           {/* video 1 */}
           <div className="flex-1 flex flex-col max-h-[600px] justify-between h-full ">
-            <div className="flex-1 mb-10">
+            <div className="flex-1 mb-8">
               <video
                 src="/img/movistar-video.mp4?"
                 type="video/mp4"
@@ -32,6 +32,24 @@ export function Home() {
               />
             </div>
             <div className="flex flex-col gap-5">
+              <h1 className="ml-1 text-xl font-extralight font-open">
+                Creative Copywriter
+              </h1>
+              <div className="font-rock md:text-3xl lg:text-6xl font-bold">
+                <span
+                  className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent font-bold animate-gradientMove"
+                  style={{
+                    backgroundSize: "200% 200%",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                  }}
+                >
+                  Cynthia
+                </span>
+                <p className="mt-5">Alarcón</p>
+              </div>
+            </div>
+            {/* <div className="flex flex-col gap-5">
               <h1 className="ml-1 text-xl font-extralight font-open">
                 Cynthia Alarcón
               </h1>
@@ -48,7 +66,7 @@ export function Home() {
                 </span>
                 <p className="mt-5">Copywriter</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* video 2 */}
@@ -356,19 +374,19 @@ export function Home() {
 
               <div className="self-end flex flex-col w-full pl-2">
                 <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-                  <p className="text-lg">{t("about.experience.present")}</p>
-                  <p>VML Peru</p>
+                  <p className="text-lg">2024 - 2025</p>
+                  <p>VML Perú</p>
                 </div>
                 <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-                  <p className="text-lg">2023</p>
-                  <p>Juju Agency</p>
+                  <p className="text-lg">2023 - 2024</p>
+                  <p>The Juju</p>
                 </div>
                 <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-                  <p className="text-lg">2020</p>
-                  <p>Publicis Peru</p>
+                  <p className="text-lg">2020 - 2023</p>
+                  <p>Publicis Perú</p>
                 </div>
                 <div className="w-full border-t border-b border-zinc-800 py-5 flex items-center justify-between">
-                  <p className="text-lg">2018</p>
+                  <p className="text-lg">2018 - 2020</p>
                   <p>Circus Grey</p>
                 </div>
               </div>
