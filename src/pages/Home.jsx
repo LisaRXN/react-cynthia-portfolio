@@ -65,13 +65,10 @@ export function Home() {
                 alt=""
               />
             </div>
-            <div className="flex flex-col gap-3">
-              <p className="font-open text-xs uppercase tracking-[0.25em] text-zinc-400">
-                Creative Copywriter
-              </p>
-              <div className="font-tusker uppercase leading-none md:text-4xl lg:text-6xl">
+            <div className="flex flex-col gap-2">
+              <div className="font-tusker uppercase leading-none">
                 <span
-                  className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent animate-gradientMove block"
+                  className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent animate-gradientMove block md:text-3xl lg:text-5xl"
                   style={{
                     backgroundSize: "200% 200%",
                     WebkitBackgroundClip: "text",
@@ -80,8 +77,11 @@ export function Home() {
                 >
                   Cynthia
                 </span>
-                <p className="text-white mt-2">Alarcón</p>
+                <p className="text-white md:text-4xl lg:text-6xl">Alarcón</p>
               </div>
+              <p className="font-open text-xs uppercase tracking-[0.25em] text-zinc-400 mt-1">
+                Creative Copywriter
+              </p>
             </div>
           </div>
 
@@ -125,13 +125,10 @@ export function Home() {
           HERO — Mobile
       ============================= */}
       <div className="md:hidden flex-1 flex flex-col gap-10 justify-between h-full">
-        <div className="flex flex-col gap-3 px-10">
-          <p className="font-open text-xs uppercase tracking-[0.25em] text-zinc-400">
-            Creative Copywriter
-          </p>
-          <div className="font-tusker uppercase leading-none text-4xl">
+        <div className="flex flex-col gap-2 px-10">
+          <div className="font-tusker uppercase leading-none">
             <span
-              className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent animate-gradientMove block"
+              className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent animate-gradientMove block text-3xl"
               style={{
                 backgroundSize: "150% 150%",
                 WebkitBackgroundClip: "text",
@@ -140,8 +137,11 @@ export function Home() {
             >
               Cynthia
             </span>
-            <p className="text-white mt-2">Alarcón</p>
+            <p className="text-white text-4xl">Alarcón</p>
           </div>
+          <p className="font-open text-xs uppercase tracking-[0.25em] text-zinc-400 mt-1">
+            Creative Copywriter
+          </p>
         </div>
         <div className="flex-1 px-5 items-center justify-center">
           <Carousel images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]} />
