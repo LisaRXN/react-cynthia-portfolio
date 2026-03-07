@@ -5,25 +5,20 @@ import { Contact } from "../components/shared/Contact";
 import { Carousel } from "../components/shared/Carousel";
 import { useTranslation } from "react-i18next";
 
-const MARQUEE_ITEMS = [
-  "Cusqueña",
-  "Publicis",
-  "VML",
-  "Movistar",
-  "Budweiser",
-  "The Juju",
-  "Circus Grey",
-  "Nayflex",
-];
-
 function Marquee() {
+  const { t } = useTranslation();
+
+  const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((i) =>
+    t(`projects.project${i}.title`)
+  );
+
   return (
     <div className="overflow-hidden border-y border-zinc-800 py-5 my-20">
       <div className="flex animate-marquee whitespace-nowrap">
         {[0, 1].map((pass) => (
           <span key={pass} className="flex items-center flex-shrink-0">
-            {MARQUEE_ITEMS.map((item) => (
-              <span key={item} className="flex items-center">
+            {items.map((item, i) => (
+              <span key={`${pass}-${i}`} className="flex items-center">
                 <span className="font-tusker text-lg md:text-2xl uppercase tracking-widest text-zinc-500 mx-8 md:mx-12">
                   {item}
                 </span>

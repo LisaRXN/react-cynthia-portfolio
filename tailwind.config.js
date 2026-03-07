@@ -48,7 +48,7 @@ export default {
       },
       animation: {
         'gradientMove': 'gradientMove 5s ease infinite',
-        'marquee': 'marquee 30s linear infinite',
+        'marquee': 'marquee 45s linear infinite',
       },
       keyframes: {
         gradientMove: {
