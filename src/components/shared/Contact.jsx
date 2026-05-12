@@ -5,7 +5,7 @@ export function Contact({ modalRef }) {
   
   return (
     <dialog id="my_modal_3" ref={modalRef} className="modal">
-      <div className="modal-box">
+      <div className="modal-box bg-zinc-900 text-white">
         <form method="dialog">
           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
             ✕
