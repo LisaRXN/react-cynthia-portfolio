@@ -135,7 +135,7 @@ export function Home() {
             <p className="text-white text-4xl">Alarcón</p>
           </div>
           <p className="font-open text-xs uppercase tracking-[0.25em] text-zinc-400 mt-1">
-            Creative Copywriter
+            Creative Copywriter Senior
           </p>
         </div>
         <div className="flex-1 px-5 items-center justify-center">
