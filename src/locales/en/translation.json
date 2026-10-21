@@ -1,89 +1,94 @@
 {
-   "main":{
+  "main": {
     "mainTitle": "Creative Copywriter",
-    "work":"work",
-    "about":"about",    
-    "share":"share this work",
-    "button1":"get in touch",
-    "button2":"view all",
-    "button3":"view project",
-    "button4":"all works"
-   },
-   "work":{
-    "overview":"Overview"
-},
-   "about":{
-    "contact":"Contact me here",
-    "button":"about me",
-    "mail":"email me",
-    "experience":{
-      "title":"My Experience",
-      "present":"Present"
-   },
-    "title":"Who I Am",
-    "description":"A Peruvian woman who loves ideas and their incredible ability to make people think about something they had never considered before or remember “that” which brings them so much joy, pride, passion, anger, or love."
-   },
-   "contact":{
-    "title":"Contact me here !",
-    "mail":"email me"
-
-},
-    "projects": {
-      "project1": {
-        "title": "Amunas Recovery",
-        "subtitle": "For Cusqueña - By Publicis - 2024",
-        "overview": "Cusqueña brought back an ancient technology called Amunas to save communities with no access to water."
-      },
-      "project2": {
-        "title": "Connected",
-        "subtitle": "For Movistar - By VLM",
-        "overview": "Movistar needed to communicate the launch of its new WiFi 6 modem that allowed families to have more coverage and more devices connected at the same time.\n\nTo tell the story, we decided to take this connection to the highest level, showing that when WiFi is good, even the objects in a house can come alive to connect."
-      },
-      "project3": {
-        "title": "It happens to us",
-        "subtitle": "For Nayflex - By Juju Angency",
-        "overview": "Periods are such a complex phenomenon that they can't be summed up as just pain — they're so much more. Periods mean hunger, frustration, rage, happiness, excitement, fatigue, endometriosis, diarrhea, chills, discomfort, and more — so much more.\n\nAnd on top of that, the people who get their periods are more than one thing too — they're moms, lesbians, grandmothers.\n\nWith this in mind, and alongside an amazing team of women, we created #NosPasa, a campaign that talks about everything we go through during our periods — the things no one ever says out loud."
-      },
-     "project4": {
-         "title": "Heart in the Belly",
-         "subtitle": "For Cusqueña - By Publicis",
-         "overview": "We Peruvians love our food so much that our heart has moved down to our stomach. That’s exactly where we carry it — and where we feel everyone’s love the most, through incredible flavors.\n\nThis is the story we wanted to tell with Cusqueña, the beer of our national cuisine, to remind everyone that every dish is better when paired with the flavors of our beer."
-       },
-       "project5": {
-         "title": "Flavors Taking Over the World ",
-         "subtitle": "For Cusqueña - By Publicis",
-         "overview": "Since ancient times, Peruvians have mastered the potato, fire, and an endless array of flavors that have made us stand out as one of the world’s great cuisines.\n\nEverywhere they go, the flavors of Peru have gone beyond just conquering our tables — they’ve conquered the world, always accompanied by a Cusqueña beer."
-       },
-       "project6": {
-         "title": "Christmas, Made Together",
-         "subtitle": "For Gloria - By Juju Angency",
-         "overview": "For 84 years, every Christmas, Gloria, the largest dairy brand in Peru, has been on every table in the country, ready to prepare the most incredible and iconic dishes.\n\nThis time, in addition to that, Gloria wanted not only to take part in preparing the flavors of"
-       },
-       "project7": {
-         "title": "The Untouchables",
-         "subtitle": "Iniciativa idea - Ojo 2021",
-         "overview": "To debunk the myths about abortion and finally make it legal in various countries where it is not, we discovered, within the same criminal code that prohibits women from having an abortion, an article that could change everything:\n\nThe prescription of a crime.\n\nThis is how we managed to get thousands of women to confess they had an abortion without going to jail. "
-       },
-       "project8": {
-         "title": "BudVar",
-         "subtitle": "For Budweiser - Publicis",
-         "overview": "If there’s one thing that sparks conversation during World Cup matches, it’s VAR. But also, many of these conversations happen in the BAR, while drinking a Budweiser. That VAR and our BAR were a great phonetic and grammatical coincidence that we couldn’t overlook."
-       },
-       "project9": {
-         "title": "Tunnels Takeover",
-         "subtitle": "For Budweiser - Publicis",
-         "overview": "Budweiser wanted to grab the attention of football fans during the 2022 Qatar World Cup by creating a big idea under their concept “The Tunnel of Greatness.”\n\nWhen we heard the word tunnel, we knew two things: every country in the world"
-       },
-       "project10": {
-         "title": "Open Football",
-         "subtitle": "For Budweiser - Publicis",
-         "overview": "Budweiser holds an absolute truth: every time someone opens one of its cans, they open up a space to enjoy football—no matter where they are.\n\nAs the FIFA World Cup Qatar 2022 approached, fans both near and far from their teams needed to know this—and feel inspired to crack open more cans of Bud and football."
-       },
-       "project11": {
-         "title": "Blackie, the Black Cat",
-         "subtitle": "For Mimaskot - By Circus",
-         "overview": "Mimaskot is a brand well known for its dog food, but this time, it was venturing into cat food—and to announce it, they asked us for a powerful, heartfelt story.\n\nWe built that story around a strong insight:\nNothing brings a family closer or makes them feel more fortunate than welcoming a new member—regardless of their color, origin, or breed."
-       }
+    "work": "work",
+    "about": "about",
+    "share": "share this work",
+    "button1": "get in touch",
+    "button2": "view all",
+    "button3": "view project",
+    "button4": "all works"
+  },
+  "work": {
+    "overview": "Overview"
+  },
+  "about": {
+    "contact": "Contact me here",
+    "button": "about me",
+    "mail": "email me",
+    "experience": {
+      "title": "My Experience",
+      "present": "Present"
+    },
+    "positions": {
+           "position1": {"date": "2026 - Today", "position": "Freelance - Spain"},
+      "position2": "VML Peru",
+      "position3": "The Juju",
+      "position4": "Publicis Peru",
+      "position5": "Circus Grey"
+    },
+    "title": "Who I Am",
+    "description": "A Peruvian woman who loves ideas and their incredible ability to make people think about something they had never considered before or remember “that” which brings them so much joy, pride, passion, anger, or love."
+  },
+  "contact": {
+    "title": "Contact me here !",
+    "mail": "email me"
+  },
+  "projects": {
+    "project1": {
+      "title": "Amunas Recovery",
+      "subtitle": "For Cusqueña - By Publicis - 2024",
+      "overview": "Cusqueña brought back an ancient technology called Amunas to save communities with no access to water."
+    },
+    "project2": {
+      "title": "Connected",
+      "subtitle": "For Movistar - By VLM",
+      "overview": "Movistar needed to communicate the launch of its new WiFi 6 modem that allowed families to have more coverage and more devices connected at the same time.\n\nTo tell the story, we decided to take this connection to the highest level, showing that when WiFi is good, even the objects in a house can come alive to connect."
+    },
+    "project3": {
+      "title": "It happens to us",
+      "subtitle": "For Nayflex - By Juju Angency",
+      "overview": "Periods are such a complex phenomenon that they can't be summed up as just pain — they're so much more. Periods mean hunger, frustration, rage, happiness, excitement, fatigue, endometriosis, diarrhea, chills, discomfort, and more — so much more.\n\nAnd on top of that, the people who get their periods are more than one thing too — they're moms, lesbians, grandmothers.\n\nWith this in mind, and alongside an amazing team of women, we created #NosPasa, a campaign that talks about everything we go through during our periods — the things no one ever says out loud."
+    },
+    "project4": {
+      "title": "Heart in the Belly",
+      "subtitle": "For Cusqueña - By Publicis",
+      "overview": "We Peruvians love our food so much that our heart has moved down to our stomach. That’s exactly where we carry it — and where we feel everyone’s love the most, through incredible flavors.\n\nThis is the story we wanted to tell with Cusqueña, the beer of our national cuisine, to remind everyone that every dish is better when paired with the flavors of our beer."
+    },
+    "project5": {
+      "title": "Flavors Taking Over the World ",
+      "subtitle": "For Cusqueña - By Publicis",
+      "overview": "Since ancient times, Peruvians have mastered the potato, fire, and an endless array of flavors that have made us stand out as one of the world’s great cuisines.\n\nEverywhere they go, the flavors of Peru have gone beyond just conquering our tables — they’ve conquered the world, always accompanied by a Cusqueña beer."
+    },
+    "project6": {
+      "title": "Christmas, Made Together",
+      "subtitle": "For Gloria - By Juju Angency",
+      "overview": "For 84 years, every Christmas, Gloria, the largest dairy brand in Peru, has been on every table in the country, ready to prepare the most incredible and iconic dishes.\n\nThis time, in addition to that, Gloria wanted not only to take part in preparing the flavors of"
+    },
+    "project7": {
+      "title": "The Untouchables",
+      "subtitle": "Iniciativa idea - Ojo 2021",
+      "overview": "To debunk the myths about abortion and finally make it legal in various countries where it is not, we discovered, within the same criminal code that prohibits women from having an abortion, an article that could change everything:\n\nThe prescription of a crime.\n\nThis is how we managed to get thousands of women to confess they had an abortion without going to jail. "
+    },
+    "project8": {
+      "title": "BudVar",
+      "subtitle": "For Budweiser - Publicis",
+      "overview": "If there’s one thing that sparks conversation during World Cup matches, it’s VAR. But also, many of these conversations happen in the BAR, while drinking a Budweiser. That VAR and our BAR were a great phonetic and grammatical coincidence that we couldn’t overlook."
+    },
+    "project9": {
+      "title": "Tunnels Takeover",
+      "subtitle": "For Budweiser - Publicis",
+      "overview": "Budweiser wanted to grab the attention of football fans during the 2022 Qatar World Cup by creating a big idea under their concept “The Tunnel of Greatness.”\n\nWhen we heard the word tunnel, we knew two things: every country in the world"
+    },
+    "project10": {
+      "title": "Open Football",
+      "subtitle": "For Budweiser - Publicis",
+      "overview": "Budweiser holds an absolute truth: every time someone opens one of its cans, they open up a space to enjoy football—no matter where they are.\n\nAs the FIFA World Cup Qatar 2022 approached, fans both near and far from their teams needed to know this—and feel inspired to crack open more cans of Bud and football."
+    },
+    "project11": {
+      "title": "Blackie, the Black Cat",
+      "subtitle": "For Mimaskot - By Circus",
+      "overview": "Mimaskot is a brand well known for its dog food, but this time, it was venturing into cat food—and to announce it, they asked us for a powerful, heartfelt story.\n\nWe built that story around a strong insight:\nNothing brings a family closer or makes them feel more fortunate than welcoming a new member—regardless of their color, origin, or breed."
     }
   }
-  
+}
