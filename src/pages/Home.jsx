@@ -9,7 +9,7 @@ function Marquee() {
   const { t } = useTranslation();
 
   const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((i) =>
-    t(`projects.project${i}.title`)
+    t(`projects.project${i}.title`),
   );
 
   return (
@@ -40,13 +40,11 @@ export function Home() {
 
   return (
     <div className="m-auto md:min-h-screen md:max-w-screen-2xl">
-
       {/* ============================
           HERO — Desktop
       ============================= */}
       <section id="hero-section" className="hidden md:block mb-20 h-auto">
         <div className="grid grid-cols-3 w-full gap-10 box-border px-10">
-
           {/* Col 1: Movistar video + name */}
           <div className="flex-1 flex flex-col max-h-[600px] justify-between h-full">
             <div className="flex-1 mb-8">
@@ -139,7 +137,9 @@ export function Home() {
           </p>
         </div>
         <div className="flex-1 px-5 items-center justify-center">
-          <Carousel images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]} />
+          <Carousel
+            images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]}
+          />
         </div>
       </div>
 
@@ -153,7 +153,6 @@ export function Home() {
       ============================= */}
       <section id="work-section">
         <div className="py-10 md:py-20 px-5 md:px-10">
-
           {/* Section header */}
           <div className="flex items-center justify-between mb-14">
             <div className="flex items-center font-rock tracking-tight text-2xl md:text-5xl font-semibold uppercase">
@@ -165,7 +164,11 @@ export function Home() {
               className="w-[160px] md:w-[200px] py-2 md:py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2"
             >
               {t("main.button2")}
-              <img src="/img/icon/arrow-up-right.png" className="h-auto w-5" alt="" />
+              <img
+                src="/img/icon/arrow-up-right.png"
+                className="h-auto w-5"
+                alt=""
+              />
             </Link>
           </div>
 
@@ -279,7 +282,6 @@ export function Home() {
             video="https://player.vimeo.com/video/1068499267?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
           />
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none" />
-
         </div>
       </section>
 
@@ -289,21 +291,28 @@ export function Home() {
       <section className="px-6 md:px-12 pb-40">
         <div className="border-t border-zinc-800 pt-16">
           <div className="grid gap-16 lg:grid-cols-3">
-
             {/* Col 1 — Bio */}
             <div className="flex flex-col justify-between gap-12">
               <div>
                 <div className="flex items-center justify-between mb-12">
                   <div className="flex items-center gap-3">
-                    <h2 className="font-rock text-2xl md:text-4xl uppercase tracking-tight">About</h2>
-                    <span className="text-mygreen text-4xl leading-none">.</span>
+                    <h2 className="font-rock text-2xl md:text-4xl uppercase tracking-tight">
+                      About
+                    </h2>
+                    <span className="text-mygreen text-4xl leading-none">
+                      .
+                    </span>
                   </div>
                   <Link
                     to="/about"
                     className="lg:hidden px-5 py-2 rounded-full border border-zinc-700 text-zinc-400 hover:border-mygreen hover:text-mygreen transition-all duration-300 font-open text-sm flex items-center gap-2"
                   >
                     {t("main.button4")}
-                    <img src="/img/icon/arrow-up-right.png" className="w-4" alt="" />
+                    <img
+                      src="/img/icon/arrow-up-right.png"
+                      className="w-4"
+                      alt=""
+                    />
                   </Link>
                 </div>
 
@@ -311,7 +320,9 @@ export function Home() {
                   <p className="font-grotesk font-bold text-xl mb-4 text-white">
                     {t("about.title")}
                   </p>
-                  <p className="text-zinc-400 leading-relaxed">{t("about.description")}</p>
+                  <p className="text-zinc-400 leading-relaxed">
+                    {t("about.description")}
+                  </p>
                 </div>
               </div>
 
@@ -381,12 +392,18 @@ export function Home() {
                   className="px-5 py-3 rounded-full border border-zinc-700 text-zinc-400 hover:border-mygreen hover:text-mygreen transition-all duration-300 font-open text-sm flex items-center gap-2"
                 >
                   {t("about.button")}
-                  <img src="/img/icon/arrow-up-right.png" className="w-4" alt="" />
+                  <img
+                    src="/img/icon/arrow-up-right.png"
+                    className="w-4"
+                    alt=""
+                  />
                 </Link>
               </div>
 
               <div className="mb-10 lg:text-right">
-                <p className="font-open font-light text-white text-lg">Cynthia Alarcón</p>
+                <p className="font-open font-light text-white text-lg">
+                  Cynthia Alarcón
+                </p>
                 <p className="font-open font-light text-zinc-500 text-sm mt-1">
                   Senior Creative Copywriter
                 </p>
@@ -395,10 +412,26 @@ export function Home() {
               {/* Timeline */}
               <div className="relative pl-6 border-l-2 border-zinc-800">
                 {[
-                  { years: "2024 – 2025", company: "VML Perú" },
-                  { years: "2023 – 2024", company: "The Juju" },
-                  { years: "2020 – 2023", company: "Publicis Perú" },
-                  { years: "2018 – 2020", company: "Circus Grey" },
+                  {
+                    years: t("about.positions.position1.date"),
+                    company: t("about.positions.position1.position"),
+                  },
+                  {
+                    years: "2024 – 2025",
+                    company: t("about.positions.position2"),
+                  },
+                  {
+                    years: "2023 – 2024",
+                    company: t("about.positions.position3"),
+                  },
+                  {
+                    years: "2020 – 2023",
+                    company: t("about.positions.position4"),
+                  },
+                  {
+                    years: "2018 – 2020",
+                    company: t("about.positions.position5"),
+                  },
                 ].map(({ years, company }, i) => (
                   <div
                     key={i}
@@ -413,11 +446,9 @@ export function Home() {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
       </section>
-
     </div>
   );
 }

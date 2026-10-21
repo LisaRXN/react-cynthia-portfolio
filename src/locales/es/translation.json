@@ -21,6 +21,13 @@
         "title":"Mi Experiencia",
         "present":"ACTUALIDAD"
      },
+     "positions":{
+           "position1": {"date": "2026 - Hoy", "position": "Freelance - España"},
+           "position2": "VML Perú",
+           "position3": "The Juju",
+           "position4": "Publicis Perú",
+           "position5": "Circus Grey"
+     },
      "title":"Quién soy",
      "description":"Una peruana que ama las ideas y la increíble capacidad que tienen de hacer que muchas personas piensen en algo en lo que nunca habían pensado o recuerden “eso” que les causa tanta gracia, orgullo, pasión, enojo, amor."
     },
